@@ -1,0 +1,19 @@
+?<?xml version="1.0" encoding="utf-8"?>
+<Presentation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+  <Id>WindowsAzureCompute</Id>
+  <Technologies>
+	<Technology>Windows Azure Compute</Technology>
+  </Technologies>
+  <Author>
+    <Blog>http://www.wadewegner.com</Blog>
+    <Email>wwegner@microsoft.com</Email>
+    <Name>wwegner</Name>
+  </Author>
+  <Description>
+    Windows Azure Compute presentation v1    
+  </Description>
+  <Document RemoveSpeakerNotes="false">.\WindowsAzureCompute.pptx</Document>
+  <Title>WindowsAzureCompute</Title>
+  <Version>1.0.0</Version>
+  <SlideThumbnail>1</SlideThumbnail>
+</Presentation>
