@@ -2,7 +2,7 @@
 <Presentation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
   <Id>WindowsAzureCompute</Id>
   <Technologies>
-	<Technology>Windows Azure Compute</Technology>
+	<Technology>Windows Azure</Technology>
   </Technologies>
   <Author>
     <Blog>http://www.wadewegner.com</Blog>
