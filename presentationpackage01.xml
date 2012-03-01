@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+  <Description>Testing package for GitHub 1. Content paths pointing to contents inside the ECS-Contents and ECS-SingleContent repos in GitHub</Description>
+  <Id>DemoTrainingCourse</Id>
+  <Version>1.0</Version>
+  <Name>Presentation Package 1</Name>
+  <DownloadUrl>http://go.microsoft.com/fwlink/?LinkID=130354</DownloadUrl>
+  <Overview>
+    <Author>
+      <Blog>
+      </Blog>
+      <Email>
+      </Email>
+      <Name>Microsoft Developer and Platform Evangelism</Name>
+    </Author>
+    <Description>This is the Presentation Package 1</Description>
+    <Document>
+    </Document>
+    <Title>Presentation Package 1</Title>
+    <Version>December Update</Version>
+  </Overview>
+  <RelatedResources/>
+  <Prerequisites>
+    <Group Name="Common Prerequisites" Order="1" Description="">
+      <Prerequisites>
+        <Prerequisite Name="Microsoft .NET Framework 4.0" Link="http://www.microsoft.com/downloads/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992" Description="" />
+        <Prerequisite Name="Visual Studio 2010" Link="http://www.microsoft.com/visualstudio/en-us/products/2010-editions" Description="" />
+        <Prerequisite Name="ASP.NET MVC 2.0" Link="http://www.microsoft.com/downloads/details.aspx?familyid=C9BA1FE1-3BA8-439A-9E21-DEF90A8615A9" Description="" />
+        <Prerequisite Name="Windows Powershell" Link="http://www.microsoft.com/windowsserver2003/technologies/management/powershell/download.mspx" Description="" />
+        <Prerequisite Name="Microsoft Internet Information Server 7" Link="http://www.iis.net/" Description="" />
+      </Prerequisites>
+    </Group>
+  </Prerequisites>
+  <Units xmlns:d="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <Unit>
+      <Description>
+        Presentation Package 1 is a package created for testing purposes.
+      </Description>
+      <Id>PresentationsPackage1</Id>
+      <Name>Presentation Package 1</Name>
+      <Presentations>
+		<Presentation>git://github.com/southworks-qa/PresentationsPackage1.git/TrafficManager</Presentation>
+		<Presentation>git://github.com/southworks-qa/PresentationsPackage1.git/WindowsAzureCompute</Presentation>
+      </Presentations>
+    </Unit>
+  </Units>
+  <CustomProperties>
+    <Property Name="AzureHomeLink" Value="http://www.microsoft.com/azure/default.mspx" />
+    <Property Name="AzureMsdnLink" Value="http://msdn.microsoft.com/en-us/azure/cc994380.aspx" />
+  </CustomProperties>
+  <Feedback>pp@microsoft.com</Feedback>
+</Package>
