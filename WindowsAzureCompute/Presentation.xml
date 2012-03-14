@@ -10,7 +10,8 @@
     <Name>wwegner</Name>
   </Author>
   <Description>
-    Windows Azure Compute presentation v1    
+    Windows Azure Compute presentation v1   
+    test test test
   </Description>
   <Document RemoveSpeakerNotes="false">.\WindowsAzureCompute.pptx</Document>
   <Title>WindowsAzureCompute</Title>
